@@ -9,7 +9,7 @@ const Statistics = ({ good, neutral, bad, total, percentage }) => {
       <li>Neutral: {neutral}</li>
       <li>Bad: {bad}</li>
       <li>Total: {total}</li>
-      <li>Positive feedback: {percentage}</li>
+      <li>Positive feedback: {percentage}%</li>
     </ul>
   );
 };
