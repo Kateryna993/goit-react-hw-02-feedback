@@ -1,0 +1,23 @@
+.statsList {
+  font-size: 18px;
+}
+
+.statsElemGood,
+.statsElemBad,
+.statsElemNeutral,
+.statsElemTotal,
+.statsElemPercent {
+  font-weight: bold;
+}
+
+.statsElemGood {
+  color: rgb(26, 184, 26);
+}
+
+.statsElemBad {
+  color: red;
+}
+
+.statsElemNeutral {
+  color: lightslategrey;
+}

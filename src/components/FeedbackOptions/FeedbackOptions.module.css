@@ -1,0 +1,18 @@
+.feedbackBtn:not(:last-child) {
+  margin-right: 15px;
+}
+
+.feedbackBtn {
+  width: 70px;
+  padding: 3px;
+  border-radius: 3px;
+  border: 1px solid rgb(144, 144, 151);
+  text-transform: capitalize;
+  font-size: 16px;
+  cursor: pointer;
+  transform: background-color 250ms linear;
+}
+.feedbackBtn:hover,
+.feedbackBtn:focus {
+  background-color: rgba(114, 114, 235, 0.63);
+}
